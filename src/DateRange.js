@@ -132,7 +132,7 @@ export default class DateRange extends Component {
     this.setState({ clearSingle: this.state.currentDate.format(headFormat) });
   };
   render() {
-    const markText = this.props.markText || "選擇日期";
+    const markText = this.props.markText || "Seleccionar rango de fechas";
     const { customStyles = {} } = this.props;
 
     const headerContainer = {
